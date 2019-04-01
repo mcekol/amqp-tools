@@ -1,0 +1,20 @@
+{
+  "name": "amqp-tools",
+  "version": "0.0.1",
+  "description": "A simple toolset for working with message queues.",
+  "scripts": {
+    "postinstall": "npx tsc"
+  },
+  "author": "Marko Cekol",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.3"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.5.11",
+    "typescript": "^3.3.4000"
+  },
+  "repository": {
+    "url": "https://github.com/mcekol/amqp-tools.git"
+  }
+}
